@@ -50,7 +50,8 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "octofit_tracker.urls"
+# Atualizar referências ao caminho do projeto
+ROOT_URLCONF = "octofit-tracker.backend.octofit_tracker.urls"
 
 TEMPLATES = [
     {
@@ -67,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "octofit_tracker.wsgi.application"
+WSGI_APPLICATION = "octofit-tracker.backend.octofit_tracker.wsgi.application"
 
 
 # Database
