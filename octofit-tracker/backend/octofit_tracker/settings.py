@@ -142,3 +142,6 @@ CORS_ALLOW_HEADERS = [
     "authorization",
     "x-csrftoken",
 ]
+
+# Adicionando o sufixo necessário para a API REST do Django
+CODESPACE_API_SUFFIX = "-8000.app.github.dev"
